@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>빙그레</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="slick.js"></script>
+    <link rel="stylesheet" href="style%20.css">
+    <link rel="stylesheet" href="slick.css">
+    <script src="bxslider/dist/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="bxslider/dist/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        $(document).ready(function() {
+            AOS.init()
+        })
+    </script>
+
+</head>
+
+<body>
+
+    <div id="wrap">
+        <div class="headerbg">
+            <header>
+                <div class="align">
+                    <div id="pc-hd">
+                        <div id="logo">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <nav>
+                            <div>
+                                <a href="#">회사소개</a>
+                                <ul class="sub">
+                                    <li><a href="#">CEO인사말</a></li>
+                                    <li><a href="#">경영이념</a></li>
+                                    <li><a href="#">오시는길</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">제품 소개</a>
+                                <ul class="sub">
+                                    <li><a href="#">아이스크림</a></li>
+                                    <li><a href="#">우유</a></li>
+                                    <li><a href="#">발효유</a></li>
+                                    <li><a href="#">스낵</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">이벤트</a>
+                                <ul class="sub">
+                                    <li><a href="#">진행중인 이벤트</a></li>
+                                    <li><a href="#">종료된 이벤트</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <a href="#">고객센터</a>
+                                <ul class="sub">
+                                    <li><a href="#">고객 문의</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                </div>
+                <div id="tb-hd">
+                   <h2><a href="#"><img src="img/logo.png" alt=""></a></h2>
+                    <div class="momenu">
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">제품소개</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="main-visual">
+            <div class="items">
+                <div class="item item1">
+                    <div class="secting-img pc" style="background-image: url('img/main_visual01.jpg')"></div>
+                    <div class="secting-img mobile" style="background-image: url('img/mmain_visual01.png')"></div>
+                </div>
+                <div class="item item2">
+                    <div class="secting-img pc" style="background-image: url('img/main_visual02.jpg')"></div>
+                    <div class="secting-img mobile" style="background-image: url('img/mmain_visual02.png')"></div>
+                </div>
+                <div class="item item3">
+                    <div class="secting-img pc" style="background-image: url('img/main_visual03.jpg')"></div>
+                    <div class="secting-img mobile" style="background-image: url('img/mmain_visual03.png')"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section1">
+            <div class="box">
+                <div class="img-box">
+                    <div class="tit">
+                        <h3>인기상품</h3>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <div class="pic">
+                                <img src="img/banana1.png" alt="">
+                            </div>
+                            <div class="txt">
+                                <div>바나나맛 우유</div>
+                                <p>No.1바나나 우유</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic">
+                                <img src="img/togeter1.png" alt="">
+                            </div>
+                            <div class="txt">
+                                <div>투게더</div>
+                                <p>대한민국 대표 아이스크림</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic">
+                                <img src="img/icecream.png" alt="">
+                            </div>
+                            <div class="txt">
+                                <div>붕어싸만코</div>
+                                <p>붕어 모양의 팥 아이스크림</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic">
+                                <img src="img/Yoplait1.png" alt="">
+                            </div>
+                            <div class="txt">
+                                <div>요플레</div>
+                                <p>39년 전통의 요플레</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="video-box">
+                    <video src="img/mv1.mp4" controls autoplay muted loop preload="auto"></video>
+                </div>
+            </div>
+        </div>
+
+        <div class="section2">
+			<div class="contain">
+				<div class="tit">
+					<h3>50년 전통이 담긴 빙그레의 맛 여러분에게 소개 합니다</h3>
+					<p>SINCE 1974~</p>
+				</div>	
+				<div class="tab-cnt">
+					<div id="page1" class="tab-content cnt01">
+						<div class="box">
+							<ul>
+								<li><img src="img/b1974.png" alt=""></li>
+								<li><img src="img/b1990.png" alt=""></li>
+								<li><img src="img/b1991.png" alt=""></li>
+								<li><img src="img/b2016.png" alt=""></li>
+							</ul>
+						</div>
+						<div class="boxtxt">
+						    <ul>
+						        <li>
+						            <p>1974</p>
+						        </li>
+						        <li>
+						            <p>1990</p>
+						        </li>
+						        <li>
+						            <p>1991</p>
+						        </li>
+						        <li>
+						            <p>2016</p>
+						        </li>
+						    </ul>
+						</div>
+					</div>
+					<div id="page2" class="tab-content cnt02">
+						<div class="box">
+							<ul>
+								<li><img src="img/t1974.png" alt=""></li>
+								<li><img src="img/t1998.png" alt=""></li>
+								<li><img src="img/t2004.png" alt=""></li>
+								<li><img src="img/t2018.png" alt=""></li>
+							</ul>
+						</div>
+						<div class="boxtxt">
+						    <ul>
+						        <li>
+						            <p>1974</p>
+						        </li>
+						        <li>
+						            <p>1998</p>
+						        </li>
+						        <li>
+						            <p>2004</p>
+						        </li>
+						        <li>
+						            <p>2018</p>
+						        </li>
+						    </ul>
+						</div>
+					</div>
+					<div id="page3" class="tab-content cnt03">
+						<div class="box">
+							<ul>
+								<li><img src="img/m1992.png" alt=""></li>
+								<li><img src="img/m1998.png" alt=""></li>
+								<li><img src="img/m2003.png" alt=""></li>
+								<li><img src="img/m2015.png" alt=""></li>
+							</ul>
+						</div>
+						<div class="boxtxt">
+						    <ul>
+						        <li>
+						            <p>1992</p>
+						        </li>
+						        <li>
+						            <p>1998</p>
+						        </li>
+						        <li>
+						            <p>2003</p>
+						        </li>
+						        <li>
+						            <p>2015</p>
+						        </li>
+						    </ul>
+						</div>
+					</div>
+					<div id="page4" class="tab-content cnt04">
+						<div class="box">
+							<ul>
+								<li><img src="img/y1983.png" alt=""></li>
+								<li><img src="img/y1994.png" alt=""></li>
+								<li><img src="img/y2007.png" alt=""></li>
+								<li><img src="img/y2018.png" alt=""></li>
+							</ul>
+						</div>
+						<div class="boxtxt">
+						    <ul>
+						        <li>
+						            <p>1983</p>
+						        </li>
+						        <li>
+						            <p>1994</p>
+						        </li>
+						        <li>
+						            <p>2007</p>
+						        </li>
+						        <li>
+						            <p>2018</p>
+						        </li>
+						    </ul>
+						</div>
+					</div>
+				
+					<div class="tab-menu">
+						<ul class="tabs">
+							<li><a href="#page1">바나나맛 우유</a></li> <!-- 버튼 -->
+							<li><a href="#page2">투게더</a></li>
+							<li><a href="#page3">메로나</a></li>
+							<li><a href="#page4">요플레</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+        </div>
+   
+    <footer>
+        <ul class="align">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">문의하기</a></li>
+            <li><a href="#">개인정보방침</a></li>
+            <li><a href="#">오시는길</a></li>
+        </ul>
+        <div class="falign">
+            <address>경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로 45(다산동) <br> 080-022-0056(이용시간 09:00 ~ 17:30)</address>
+            <div class="sns">
+                <a href="#"><img src="img/instagram.png" alt=""></a>
+                <a href="#"><img src="img/facebook.png" alt=""></a>
+                <a href="#"><img src="img/youtube.png" alt=""></a>
+
+                <div>Copylight@Biggrae</div>
+            </div>
+
+        </div>
+    </footer>
+    </div>
+	<script>
+		jQuery(document).ready(function(){
+			jQuery(".tab-cnt .tab-content").hide();
+			jQuery(".tab-cnt ul.tabs>li:first").addClass("active").show(); 	
+			jQuery(".tab-cnt .tab-content:first").show();
+
+			jQuery(".tab-cnt ul.tabs>li").click(function(e) {
+				e.preventDefault();
+
+				jQuery(".tab-cnt ul.tabs>li").removeClass("active");
+				jQuery(this).addClass("active");
+				jQuery(".tab-cnt .tab-content").hide();		
+				
+				var activeTab = jQuery(this).find("a").attr("href");
+				jQuery(activeTab).show();
+				return false;
+			});
+		}); 
+	</script>
+
+</body></html>
