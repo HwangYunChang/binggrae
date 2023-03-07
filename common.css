@@ -1,0 +1,129 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin: 0; padding: 0;}
+html,body{font-size: 12px;
+          font-family: 'Binggrae-Bold';}
+a{text-decoration: none;
+  color: inherit;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;}
+img{vertical-align: bottom;}
+address{font-style: normal;}
+button,input{
+   border: none;
+   background: transparent;
+   font-size: 100%;
+   font-family: 'Binggrae-Bold';
+}
+
+
+#wrap{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .align{
+    max-width: 1300px;
+    margin: auto;
+ }
+ header{
+    font-size: 2rem;
+ }
+ header::after{
+    display: block;
+    content: '';
+    clear: both;
+ }
+#tb-hd .momenu ul li{display: none;}
+#tb-hd h2{display: none;}
+#logo{
+   text-align: center;
+/*   padding: 30px;*/
+	padding-top: 1rem;
+}
+#logo a{}
+#logo a img{}
+
+nav{
+   width: 1300px;
+   z-index: 999;
+}
+nav div{
+   float: left;
+   width: 25%;
+   text-align: center;
+	position: relative;
+}
+
+nav::after{
+   display: block;
+   content: '';
+   clear: both;
+}
+nav div>a{display: block;line-height: 50px;}
+nav div .sub{
+   display: none;
+   font-size: 1.2rem;
+	position: absolute;
+	z-index: 999;
+	top: 50px;
+	width: 100%;
+	border-radius: 30px;
+	background: #ffcf9e;
+}
+nav div .sub li{
+   padding: 15px;
+   color: #6d6d6d;
+	border-radius: 20px;
+}
+nav div .sub li:hover{
+	background: #f5f5f5;
+}
+
+footer{
+    background: #ffb948;
+}
+footer div{}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    font-size: 1.7rem;
+    margin: 90px 60px 0;
+    color: #0e0e0e;
+}
+footer ul li a{}
+
+.falign{
+    width: 100%;
+    margin: auto;
+   text-align: center;
+}
+footer address{
+    margin-top: 2rem;
+    color: #f2f2f2;
+    line-height: 1.5rem;
+    border-bottom: 1px solid #474747;
+    padding-bottom: 1rem;
+}
+
+.sns{
+    text-align: center;
+}
+.sns a{}
+.sns a img{
+    display: inline-block;
+    margin: 2rem 1rem;
+}
+.sns>div{
+    padding-bottom: 2rem;
+    color: #4e4e4e;
+}

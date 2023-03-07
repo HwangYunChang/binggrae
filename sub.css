@@ -1,0 +1,63 @@
+/* sub1 아이스크림 */
+.menu{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 1500px;
+    border-bottom: 1px solid #eee;
+    margin: 0 auto;
+}
+.menu div{
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.menu-list{
+    margin: 5% 0 0 0;
+}
+.menu-list h2{
+    font-size: 46px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.menu-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-list li{
+    width: 25%;
+    margin: 0 5% 50px 0;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 100px 0 20px;
+}
+.menu-list li:nth-child(3),
+.menu-list li:nth-child(6){
+    margin-right: 0;
+}
+.menu-list li .item-wrap{
+    text-align: center;
+    margin: 0 auto;
+}
+.menu-list li .img-wrap{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu-list li img{
+    margin-bottom: 130px;
+    margin-left: 130%;
+}
+.menu-list li div{
+    font-size: 24px;
+}
+.menu-list li
